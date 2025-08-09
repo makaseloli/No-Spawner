@@ -13,8 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Debug(export = true)
 @Mixin(
-        value = {SpawnerBlockEntity.class},
-        remap = false)
+        value = {SpawnerBlockEntity.class})
 
 public class SpawnerBlockEntityMixin {
     @Inject(
