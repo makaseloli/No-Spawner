@@ -1,6 +1,6 @@
 # No Spawner
 
-Very simple mod that __***only***__ disables spawners.  
+Very simple mod that only disables spawners.  
 Nothing else, so if you want fancy tweaks, check out other mods.
 
 # Warning
