@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "nospawner",
+  "version": "${version}",
+  "name": "No Spawner",
+  "description": "Very simple mod that only disables spawners.",
+  "authors": ["makaseloli"],
+  "contact": {},
+  "license": "BSD-2-Clause-FreeBSD",
+  "icon": "assets/nospawner/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.makaseloli.nospawner.Nospawner"
+    ]
+  },
+  "mixins": [
+    "nospawner.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
