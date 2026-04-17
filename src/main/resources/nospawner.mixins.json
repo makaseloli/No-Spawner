@@ -2,11 +2,9 @@
   "required": true,
   "minVersion": "0.8",
   "package": "io.github.makaseloli.nospawner.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "JAVA_25",
   "mixins": [
-    "MobSpawnerBlockEntityMixin"
-  ],
-  "client": [
+    "SpawnerBlockEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
