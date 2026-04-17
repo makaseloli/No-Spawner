@@ -1,6 +1,6 @@
 package io.github.makaseloli.nospawner;
 
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.fml.common.Mod;
 
 @Mod(Nospawner.MODID)
 public class Nospawner {

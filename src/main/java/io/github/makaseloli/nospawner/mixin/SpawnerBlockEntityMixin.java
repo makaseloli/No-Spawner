@@ -21,8 +21,7 @@ public class SpawnerBlockEntityMixin {
             at = @At("HEAD"),
             cancellable = true
     )
-    private static void inject_serverTick(Level p_155762_, BlockPos p_155763_, BlockState p_155764_, SpawnerBlockEntity p_155765_, CallbackInfo ci) {
+    private static void cancelServerTick(Level level, BlockPos pos, BlockState state, SpawnerBlockEntity entity, CallbackInfo ci) {
         ci.cancel();
     }
 }
-
