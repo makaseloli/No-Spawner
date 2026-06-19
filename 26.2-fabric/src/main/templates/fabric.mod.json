@@ -1,0 +1,8 @@
+{
+  "icon": "assets/nospawner/icon.png",
+  "mixins": [
+    "nospawner.mixins.json"
+  ],
+  "depends": {
+  }
+}
